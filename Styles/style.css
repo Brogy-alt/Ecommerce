@@ -1,0 +1,131 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500&family=M+PLUS+Rounded+1c:wght@300;400&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;1,200&display=swap');
+
+
+#home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://i.postimg.cc/kXK5WmpZ/real-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-text{
+  display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:flex-start;
+   margin: 5rem;
+   padding-top: 35vh
+}
+
+nav:hover
+  
+  /* heading image */
+
+  .wrapper img {
+    display: block;
+    margin: 15px auto;
+    height: 350px;
+    animation: awesome 3.5s infinite;
+    border-radius: 5%;
+    margin: 5rem;
+    
+  }
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+ 
+  }
+
+
+  .wrapper p {
+    text-align: center;
+  }
+ 
+  .logo {
+    width: 12rem;
+  }
+
+  #home .heading, p {
+    color: rgb(243, 235, 235)
+  }
+
+  body {
+   
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    
+  }
+
+  h1,h5,p {
+    text-align: center;
+  }
+  
+  h2{
+    padding-top: 3rem;
+    text-align: center;
+  }
+
+  p{
+    font-size: medium;
+  }
+
+footer{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-flexbox;
+    justify-content: space-between;
+ 
+}
+
+/* form */
+
+input[type=text] {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+}
+
+input:hover[type=text] {
+  border: none;
+  border: 4px ;
+}
+
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  resize: none;
+}
+
+textarea:hover{
+  border: none;
+  box-sizing: border-box;
+  border-radius: 4px;
+  
+}
+/* .carousel-caption {
+  z-index: -1;
+} */
+
+@media only screen and (min-width: 300px) {
+  header, main, body, footer{
+     min-width: 300px;
+  }
+}
